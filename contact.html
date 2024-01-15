@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>88,9 Pindai-FM</title>
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="css/style.css">
+  <link rel="icon" type="image/png" href="https://thumbs2.imgbox.com/e8/3d/zdvtg0Mm_t.jpg" />
+  <head>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ </head>
+ <body>
+     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+</head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Everson da Luz">
+        <title>Fixar menu no topo - CSS</title>
+    </head>
+    <body>
+       <nav>
+     <div class="nav-wrapper">
+         <a href="index.html" class="brand-logo">88,9 Pindai-FM</a>
+         <a href="index.html" data-activates="menu-mobile" class="button-collapse">
+            <i class="material-icons">menu</i>
+         </a>
+        <ul class="right hide-on-med-and-down">
+             <li><a href="index.html">Inicio</a></li>
+             <li><a href="About.html">Sobre nos</a></li>
+             <li><a href="portfolio.html">Galeria</a></li>
+             <li><a href="contact.html">Contato</a></li>
+         </ul>
+         <ul class="side-nav" id="menu-mobile">
+             <li><a href="index.html">Inicio</a></li>
+             <li><a href="About.html">Sobre nos</a></li>
+             <li><a href="portfolio.html">Galeria</a></li>
+             <li><a href="contact.html">Contato</a></li>
+         </ul>
+     </div>
+ </nav>
+<script>
+ $(function(){
+     $(".button-collapse").sideNav();
+ });
+ </script>
+ <body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>Contatos</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Nome</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Sobrenome</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">País</label>
+    <select id="country" name="country">
+      <option value="australia">Brasil</option>
+    </select>
+
+    <label for="subject">Assunto</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
